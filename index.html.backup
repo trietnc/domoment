@@ -155,33 +155,23 @@
       <div class="faqs-container">
           <button class="btn question question-1" >
             <p>How do I <span class="gradient-text">capture ideas fast</span> with domoment?</p>
-            <svg class="chevron" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
-        <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/>
-      </svg>
+            <img class="arrow-icon" src="icon/Caret_Down_MD.svg" />
           </button>
           <button class="btn question question-2" >
             <p>Is my voice data <span class="gradient-text">private and secure?</span></p>
-            <svg class="chevron" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
-        <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/>
-      </svg>
+            <img class="arrow-icon" src="icon/Caret_Down_MD.svg" />
           </button>
           <button class="btn question question-3" >
             <p>What if inspiration hits when I’m <span class="gradient-text">offline?</span></p>
-            <svg class="chevron" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
-        <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/>
-      </svg>
+            <img class="arrow-icon" src="icon/Caret_Down_MD.svg" />
           </button>
           <button class="btn question question-4" >
             <p>Is domoment <span class="gradient-text">free or paid?</span></p>
-            <svg class="chevron" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
-        <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/>
-      </svg>
+            <img class="arrow-icon" src="icon/Caret_Down_MD.svg" />
           </button>
           <button class="btn question question-5" >
             <p><span class="gradient-text">Why</span> choose domoment over other notes apps?</p>
-            <svg class="chevron" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
-        <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/>
-      </svg>
+            <img class="arrow-icon" src="icon/Caret_Down_MD.svg" />
           </button>
       </div>
       <div class="mail-section">
@@ -191,12 +181,9 @@
             Join 847 newsletter writers who are done with scattered notes
           </h3>
           <div class="mail-input-container">
-            <form action="https://api.web3forms.com/submit" method="POST" class="mail-form">
-              <img class="mail-icon" src="icon/Email, @, Circle.svg" />
-              <input type="hidden" name="access_key" value="6dc0a875-d3f3-460e-a91a-711276bb9d94">
-              <input name="email" class="mail-input" type="email" placeholder="Enter your email" required />
-              <button class="btn btn-join" type="submit">Join Waitlist</button>
-            </form>
+            <img class="mail-icon" src="icon/Email, @, Circle.svg" />
+            <input class="mail-input" type="email" placeholder="Enter your email" />
+            <button class="btn btn-join">Join Waitlist</button>
           </div>
         </div>
       </div>
